@@ -1,5 +1,5 @@
 <template>
-    <b-jumbotron class="mechanics" lead="To receive tokens, register your public key here">
+    <b-jumbotron class="mechanics" lead="To receive tokens, register your address here">
         <b-form @submit.prevent="onSubmit">
         <b-form-input v-model="address" placeholder="Your address"></b-form-input>
         <b-btn :disabled="!validAddress" class="mt-3" variant="primary" type="submit">ok</b-btn>
