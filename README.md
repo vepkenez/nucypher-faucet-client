@@ -7,7 +7,7 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
@@ -17,7 +17,7 @@ yarn run build
 
 ### Run your tests
 ```
-yarn run test
+npx vue-cli-service test:unit
 ```
 
 ### Lints and fixes files
